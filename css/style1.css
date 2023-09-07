@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background: white;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px;
+
+}
+.menu a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    font-family: monospace;
+    margin: 0 7px;  
+}
+.video{
+    height: 300px;
+    overflow: hidden;
+}
+.about{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    align-items: center;
+    max-width: 60%;
+    margin-left: 20%;
+}
+.about h2{
+    margin-top: 100px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.about p{
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 11px;
+    text-shadow: 5px 4px 3px rgb(66, 133, 138);
+    line-height: 22px;
+    font-size: 20px;
+}
+.about button{
+    width: 220px;
+    height: 40px;
+    background-color: rgb(218, 63, 153);
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 2px;
+}
+.press{
+    background-image: url(../image/foodpanda-home-2.jpg);
+    width: 100%;
+    background-position: center;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.paras{
+    color: white;
+    align-items: center;
+    text-align: center;
+    padding: 160px 320px ;
+    height: 700px;
+}
+.press h2{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+.press p{
+    text-align: center;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 11px;
+    line-height: 22px;
+    color: white;
+    font-size: 20px;
+}
+.press button{
+    width: 220px;
+    height: 40px;
+    background-color: rgb(218, 63, 153);
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 2px;   
+}
+.team{
+    background-image: url(../image/jason-goodman-Oalh2MojUuk-unsplash-scaled-e1681198203102.jpg);
+    width: 100%;
+    background-position: center;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.paras1{
+    color: white;
+    align-items: center;
+    text-align: center;
+    padding: 160px 300px ;
+    height: 550px;
+}
+.team h2{
+        text-align: center;
+        text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+.team p{
+    text-align: center;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 22px;
+    color: white;
+    font-size: 20px;
+}
+.team button{
+    width: 220px;
+    height: 40px;
+    background-color: rgb(218, 63, 153);
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 2px;   
+}
+.contact{
+    width: 100%;
+    height: 350px;
+    text-align: center;
+    align-items: center;
+    max-width: 60%;
+    margin-left: 20%;
+    padding: 70px 100px;
+}
+.contact h2{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contact p{
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 11px;
+    text-shadow: 5px 4px 3px rgb(66, 133, 138);
+    line-height: 22px;
+    font-size: 20px;
+}
+.contact button{
+    width: 220px;
+    height: 40px;
+    background-color: rgb(218, 63, 153);
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 2px;
+}        
+footer{
+    padding: 40px 125px;
+    background: black;
+    color: white;
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+.first h4{   
+font-size: 20px;
+font-weight: bold;
+white-space: nowrap;
+}
+.first a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+}
+.second{
+    display: flex;
+    justify-content: space-between;
+}
+.second h4{
+    justify-content: space-between;
+}

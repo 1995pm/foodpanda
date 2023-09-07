@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* table, tr, th, td {
+width: 800px;
+height: 50px;
+border: 3px solid;
+text-align: center;
+border-collapse: collapse; 
+font-size: 30px;
+color: maroon;
+}
+tr:hover{
+    background: rgb(152, 195, 230);
+}
+td:hover{
+    background: rgb(111, 174, 233);
+} */
+
+body{
+    background: url(../art.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.login{
+    
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 500px;
+    background-color: rgb(180, 213, 241);
+}
+.login input{
+    width: 230px;
+    height: 35px;
+    background: #e9dcff;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    padding-left: 15px;
+}
+.login h3{
+    background: rgb(55, 83, 116);
+    font-size: 27px;
+    color: azure;
+    margin-bottom: 12px;
+    font-family: cursive;
+}
+.login button{
+    width: 105px;
+    height: 30px;
+    background: #031de4;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+}
+.login a{
+    text-decoration: none;
+    font-family: cursive;
+}
